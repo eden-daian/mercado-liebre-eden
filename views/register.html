@@ -1,0 +1,81 @@
+<html>
+
+    <head>
+        <title>Mercado Liebre</title>
+        <meta charset="utf-8">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+        <link href="/css/register.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+
+
+    </head>
+
+    <body>
+        <img src="img/logo-mercado-liebre.svg" />
+        <h1>Formulario Login</h1>
+        <link rel="stylesheet" href="/css/register.css">
+        <form action="registro" method="POST">
+            <div>
+            <label for="nombre">nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="ej:Daniel">
+            </div>
+
+            <div>
+            <label for="apellido">apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="ej:Gonzalez">
+            </div>
+
+            <div>
+            <label for="usuario">nombre de usuario</label>
+            <input type="text" name="nombre de usuario" id="usuario" placeholder="ej:HE-MAN83">
+            </div>
+
+            <div>
+            <label for="nacimiento"> fecha de nacimiento</label>
+            <input type="date" name="fecha" id="nacimiento">
+            </div>
+
+            <div>
+            <label for="direccion">direccion</label>
+            <input type="text" name="direccion" id="direccion" placeholder="ej:Juramento 1400">
+            </div>
+
+            <div>
+            <label for="perfil">perfil de usuario</label>
+            <input type="text" name="perfil usuario" id="usuario">
+            </div>
+<div>
+            <label for="categorías de interés">intereses personales</label>
+            <input type="checkbox" name="categoria" value="Electro">
+            <input type="checkbox" name="categoria" value="Moda">
+            <input type="checkbox" name="categoria" value="Hogar">
+            <input type="checkbox" name="categoria" value="Jugetería">
+            <input type="checkbox" name="categoria" value="vida sana">
+            </div>
+
+            <div>
+            <label>Seleccionar imagen</label>
+            <input type="file" name="avatar" accept=".jpg" multiple>
+            </div>
+
+            <div>
+            <label for="contraseña">contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+            </div>
+
+            <div>
+            <label for="confirmar">confirmar contraseña</label>
+            <input type="password" name="confirmar contraseña">
+            </div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+
+        </form>
+    </body>
+</html>
